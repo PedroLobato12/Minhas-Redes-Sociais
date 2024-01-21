@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body {
+    background:linear-gradient(#2FA9AD,#3A787A, #10DAE0, #5aacac, #4c9b9b);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+h2 {
+    color: black;
+}
+p{
+    color: black;
+}
+ul {
+    color: black;
+}
+div {
+    text-align: center;
+    background: #10E05A;
+}
