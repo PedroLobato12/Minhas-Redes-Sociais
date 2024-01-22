@@ -1,20 +1,29 @@
 @charset "UTF-8";
 body {
-    background:linear-gradient(#2FA9AD,#3A787A, #10DAE0, #5aacac, #4c9b9b);
+    background: rgb(2,0,36);
+background: linear-gradient(209deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 21%, rgba(0,212,255,1) 74%);
     
 }
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    .lato-black {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
     color: black;
+    text-align: center;
 }
 h2 {
     color: black;
+    text-indent: 30px;
 }
 p{
     color: black;
+    text-indent: 10px;
 }
 ul {
     color: black;
+    text-align: justify;
 }
 
 .amor {
