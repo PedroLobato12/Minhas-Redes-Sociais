@@ -1,28 +1,37 @@
 @charset "UTF-8";
 body {
-    background: rgb(2,0,36);
-background: linear-gradient(209deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 21%, rgba(0,212,255,1) 74%);
+    background: linear-gradient(209deg, rgba(2, 0, 36, 1) 0%, rgba(80, 9, 121, 1) 21%, rgba(0, 212, 255, 1) 74%);
     
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100px; 
+    color: #fff;
 }
+
+
 h1 {
     .lato-black {
         font-family: "Lato", sans-serif;
         font-weight: 900;
         font-style: normal;
       }
-    color: black;
+    color: #F53A21;
     text-align: center;
 }
 h2 {
-    color: black;
+    color: #F6F601;
     text-indent: 30px;
 }
 p{
-    color: black;
+    color: #F6F601;
     text-indent: 10px;
 }
 ul {
-    color: black;
+    color: #F6F601;
     text-align: justify;
 }
 
@@ -41,3 +50,4 @@ ul {
     text-align: center;
     background-color: aqua;
 }
+
