@@ -20,7 +20,7 @@ header {
 header h1 {
     margin: 0;
     text-align: center;
-    font-size: 6vh;
+    font-size: 8vh;
     
 }
 
@@ -47,6 +47,12 @@ main img {
     max-height: 100%;
     width: 150px;
     height: 150px;
+}
+img.icons {
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    top: 28%;
 }
 
 h2 {
@@ -81,7 +87,7 @@ a:active {
 a:visited {
     color: #090979;
 }
-a::after {
+a.cert::after {
     content: "\1F4CE";
     margin-left: 5px;
 }
