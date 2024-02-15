@@ -1,53 +1,63 @@
 @charset "UTF-8";
+
 body {
-    background: linear-gradient(209deg, rgba(2, 0, 36, 1) 0%, rgba(80, 9, 121, 1) 21%, rgba(0, 212, 255, 1) 74%);
-    
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    height: 100px; 
-    color: #fff;
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    color: #333; /* Texto escuro */
 }
 
-
-h1 {
-    .lato-black {
-        font-family: "Lato", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-    color: #F53A21;
+header {
+    background-color: #1a1a1a; /* Fundo preto */
+    color: #fff; /* Texto branco */
     text-align: center;
-}
-h2 {
-    color: #F6F601;
-    text-indent: 30px;
-}
-p{
-    color: #F6F601;
-    text-indent: 10px;
-}
-ul {
-    color: #F6F601;
-    text-align: justify;
+    padding: 20px;
 }
 
-.amor {
-    width: 400px;
-    height: 250px;
+header h1 {
+    margin: 0;
 }
-.amor2 {
-    width: 250px;
-    height: 350px;
+
+header p {
+    margin: 5px 0 0;
 }
-#vida {
+
+section {
+    padding: 20px;
+}
+
+#sobre-mim img {
+    border-radius: 50%; /* Deixa a imagem redonda */
+    margin-bottom: 15px;
+}
+
+#portfolio .projeto {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Borda cinza */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#portfolio .projeto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contato ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1a1a1a; /* Fundo preto */
+    color: #fff; /* Texto branco */
     text-align: center;
+    padding: 10px;
 }
-.teste {
-    text-align: center;
-    background-color: aqua;
-}
+
 
