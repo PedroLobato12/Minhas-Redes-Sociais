@@ -41,18 +41,27 @@ main {
     padding: 10px;
 }
 main img {
-    position: absolute;
     align-items: center;
     max-width: 100%;
     max-height: 100%;
     width: 150px;
     height: 150px;
 }
+
+main > div {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    justify-content: left;
+}
 img.icons {
     width: 30px;
     height: 30px;
-    right: 20px;
+    right: 5%;
     top: 28%;
+    position: absolute;
+    margin: auto;
 }
 
 h2 {
@@ -61,6 +70,13 @@ h2 {
 h3, p {
     color: #020024;
     font-weight: bold;
+}
+div {
+    top: auto;
+    background-color: white;
+
+
+    
 }
 
 section {
