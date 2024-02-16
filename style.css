@@ -32,26 +32,29 @@ header p {
 
 main {
     background: rgb(2,0,36);
-    background: linear-gradient(55deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(55deg, rgb(18, 165, 228) 0%, rgb(21, 127, 227) 0%, rgb(215, 229, 232) 100%);
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
+    align-items: top;
     height: 20vh;
     padding: 10px;
     box-shadow: 1px 1px 3px 5px rgba(0, 0, 0, 0.349);
     position: relative;
+    
 }
 .icones {
-background-color: white;
-position: absolute;
-  }
+background-color: transparent;
+position: relative;
+display: flex;
+align-items: top;
+}
 
 #icons {
-    width: 30px;
-    height: 30px;
-    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
     justify-content: right;
-    flex-wrap: wrap;   
+    padding: 0px 15px;
 }
 
 h2 {
@@ -81,7 +84,7 @@ a{
     text-decoration: none;
 }
 
-a:hover {
+a.cert:hover {
     background-color: #00d4ff;
     color: #020024;
 }
