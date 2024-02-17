@@ -48,12 +48,12 @@ background-color: transparent;
 }
 
 #icons {
-    width: 55px;
-    height: 55px;
+    width: 57px;
+    height: 57px;
     display: flex;
     justify-content: flex-start;
     align-items: end;
-    padding: 0px 7px; 
+    padding: 3px 7px; 
 }
 
 h2 {
