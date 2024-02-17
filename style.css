@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #20c9d4; /* Fundo cinza claro */
+    background-color: gray; /* Fundo cinza claro */
     color: #333; /* Texto escuro */
 }
 
