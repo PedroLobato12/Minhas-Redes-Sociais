@@ -74,6 +74,7 @@ div.especial {
     align-items: rigth;
     position: absolute;
     right: 1vh;
+    display: flex;
 }
 
 section {
