@@ -70,8 +70,9 @@ div.especial {
     display: flex;
     justify-content: flex-end;
     right: 1vh;
+    left: 30vh;
     margin: auto;
-    position: absolute;  
+    position: absolute; 
 }
 
 section {
@@ -140,4 +141,12 @@ footer > p {
     color: white;
 }
 
+@media only screen and (max-width: 500px) {
+    .especial {
+        flex-direction: unset; /* Altera a direção do flex para coluna */
+        align-items: center;     /* Alinha os itens no centro */
+        justify-content: center; /* Centraliza os itens */
+        flex-wrap: wrap;         /* Permite o embrulho dos itens */
+    }
+}
 
