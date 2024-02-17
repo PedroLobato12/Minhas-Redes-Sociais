@@ -48,8 +48,8 @@ background-color: transparent;
 }
 
 #icons {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -58,10 +58,20 @@ background-color: transparent;
 
 h2 {
     color: #090979;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
 }
+
+h3 {
+font: 0.8em;
+}
+
 h3, p {
     color: #020024;
     font-weight: bold;
+    text-align: left;
+    width: 100%;
 }
 div.especial {
     background-color: transparent;
@@ -70,7 +80,7 @@ div.especial {
     display: flex;
     justify-content: flex-end;
     right: 1vh;
-    left: 30vh;
+    left: 25vh;
     margin: auto;
     position: absolute; 
 }
