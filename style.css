@@ -38,7 +38,7 @@ main {
     align-items: top;
     height: 20vh;
     padding: 10px;
-    box-shadow: 1px 1px 3px 5px rgba(0, 0, 0, 0.349);
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.349);
     position: relative;
     
 }
