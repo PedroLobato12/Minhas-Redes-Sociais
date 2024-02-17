@@ -88,8 +88,8 @@ div.especial {
 section {
     padding: 20px;
     margin: auto;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: white;
     text-align: justify;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.391);
@@ -149,6 +149,7 @@ footer {
 
 footer > p {
     color: white;
+    text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
